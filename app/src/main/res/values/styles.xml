@@ -1,11 +1,75 @@
 <resources>
-
     <!-- Base application theme. -->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Theme-->
+    <style name="Theme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!--选中状态icon的颜色和字体颜色-->
+        <item name="colorPrimary">@color/theme</item>
+        <item name="colorPrimaryDark">@color/theme</item>
+        <item name="colorAccent">@color/theme</item>
+        <item name="android:windowAnimationStyle">@style/default_animation</item>
+    </style>
+
+    <!-- 默认Activity跳转动画 -->
+    <style name="default_animation" mce_bogus="1" parent="@android:style/Animation.Activity">
+        <item name="android:activityOpenEnterAnimation">@anim/activity_up_in</item>
+        <item name="android:activityOpenExitAnimation">@anim/activity_up_out</item>
+        <item name="android:activityCloseEnterAnimation">@anim/activity_down_in</item>
+        <item name="android:activityCloseExitAnimation">@anim/activity_down_out</item>
+    </style>
+
+    <!--Theme Style-->
+    <style name="ThemeTitleTheme" parent="@style/Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorAccent">@color/theme</item>
+        <item name="colorPrimaryDark">@color/theme</item>
+        <item name="colorPrimary">@color/theme</item>
+        <item name="android:background">@color/transparent</item>
+        <item name="android:textColor">@color/black_255</item>
+        <!--<item name="android:windowAnimationStyle">@style/windowAnimation</item>-->
+        <!--<item name="android:windowContentTransitions">true</item>-->
+        <item name="android:windowBackground">@color/white_255</item>
+        <item name="android:itemBackground">@color/white_255</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowDisablePreview">true</item>
+    </style>
+
+    <style name="AppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <!--ToolBar文字 style-->
+    <style name="Toolbar.TitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="colorControlNormal">@color/white_255</item>
+    </style>
+
+    <style name="AppTheme.Toolbar" parent="Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/dp_54</item>
+        <item name="android:textSize">@dimen/sp_16</item>
+        <item name="android:theme">@style/ThemeOverlay.AppCompat.Dark.ActionBar</item>
+    </style>
+
+    <style name="myCorDialog" parent="android:style/Theme.Dialog">
+        <item name="android:windowBackground">@color/transparent</item> <!-- 背景透明 -->
+        <item name="android:windowNoTitle">true</item> <!-- 没有标题 -->
+        <item name="android:backgroundDimEnabled">true</item> <!-- 背景模糊 -->
+    </style>
+
+    <!-- 全局Dialog样式 -->
+    <style name="MyDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
     </style>
 
 </resources>
