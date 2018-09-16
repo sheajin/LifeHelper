@@ -11,11 +11,11 @@ import butterknife.BindView;
 
 public class MainActivity extends BaseActivity {
 
-    @BindView(R.id.drawerLayout)
-    DrawerLayout mDrawerLayout;
-    @BindView(R.id.pager)
-    ViewPager mpager;
-
+//    @BindView(R.id.drawerLayout)
+//    DrawerLayout mDrawerLayout;
+//    @BindView(R.id.pager)
+//    ViewPager mpager;
+    //
 
     @Override
     protected int getLayoutId() {
