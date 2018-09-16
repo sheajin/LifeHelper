@@ -3,7 +3,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.xy.lifehelper.MainActivity">
+    tools:context="com.xy.lifehelper.ui.MainActivity">
 
     <TextView
         android:layout_width="wrap_content"
@@ -11,3 +11,90 @@
         android:text="Hello World!"  />
 
 </android.support.constraint.ConstraintLayout>
+<!--=======-->
+<!--<android.support.v4.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--xmlns:tools="http://schemas.android.com/tools"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="match_parent"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:id="@+id/drawerLayout"-->
+    <!--tools:context="com.xy.lifehelper.ui.MainActivity">-->
+
+    <!--&lt;!&ndash;主界面&ndash;&gt;-->
+    <!--<LinearLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:background="@color/theme"-->
+        <!--android:fitsSystemWindows="true"-->
+        <!--android:orientation="vertical">-->
+
+        <!--<android.support.v7.widget.Toolbar-->
+            <!--android:id="@+id/toolbar"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="@dimen/dp_48">-->
+
+            <!--<RelativeLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="@dimen/dp_48">-->
+
+                <!--<RelativeLayout-->
+                    <!--android:layout_width="@dimen/dp_60"-->
+                    <!--android:layout_height="match_parent">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/dp_26"-->
+                        <!--android:layout_height="@dimen/dp_26"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:src="@mipmap/ic_launcher" />-->
+                <!--</RelativeLayout>-->
+
+                <!--<LinearLayout-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="match_parent"-->
+                    <!--android:layout_centerInParent="true"-->
+                    <!--android:orientation="horizontal">-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/dp_26"-->
+                        <!--android:layout_height="@dimen/dp_26"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--android:src="@mipmap/ic_launcher" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/dp_26"-->
+                        <!--android:layout_height="@dimen/dp_26"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--android:src="@mipmap/ic_launcher" />-->
+
+                    <!--<ImageView-->
+                        <!--android:layout_width="@dimen/dp_26"-->
+                        <!--android:layout_height="@dimen/dp_26"-->
+                        <!--android:layout_centerInParent="true"-->
+                        <!--android:background="?attr/selectableItemBackgroundBorderless"-->
+                        <!--android:src="@mipmap/ic_launcher" />-->
+                <!--</LinearLayout>-->
+            <!--</RelativeLayout>-->
+
+        <!--</android.support.v7.widget.Toolbar>-->
+
+        <!--<android.support.v4.view.ViewPager-->
+            <!--android:id="@+id/pager"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/white_255"-->
+            <!--android:descendantFocusability="blocksDescendants" />-->
+    <!--</LinearLayout>-->
+
+    <!--&lt;!&ndash;侧滑&ndash;&gt;-->
+    <!--<android.support.design.widget.NavigationView-->
+        <!--android:id="@+id/navigation_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_gravity="start"-->
+        <!--android:background="@color/color_page_bg"-->
+        <!--app:headerLayout="@layout/nav_layout" />-->
+
+<!--</android.support.v4.widget.DrawerLayout>-->
+<!--&gt;>>>>>> 4cce8221a1fb7ec0c1618d24993bb1f55bd26b18-->

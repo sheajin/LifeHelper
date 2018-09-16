@@ -4,7 +4,7 @@
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
     <!--主题色-->
-    <color name="theme">#03A9F4</color>
+    <color name="theme">#ffce3d3a</color>
     <color name="theme_pressed">#44a7d4</color>
     <!--文字-->
     <!--背景色-->
@@ -60,5 +60,6 @@
     <color name="popup_window">#80000000</color>
     <color name="theme_bgs">#EEF8FC</color>
     <color name="while_most_color">#e4e4e4</color>
+    <color name="color_page_bg">#F1F3F4</color>
 
 </resources>
