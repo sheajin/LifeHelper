@@ -18,5 +18,8 @@ public class EmptyFragment extends BaseFragment {
     @Override
     protected void initData() {
 
+
+
+        //
     }
 }
